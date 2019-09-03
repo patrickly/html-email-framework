@@ -4,15 +4,36 @@ subject: My Email Templates
 ---
 
 <container>
-  <row>
-    image
+  <row class="collapse header">
+    <columns small="12" large="12">
+      <h1 class="text-center">
+      home
+      </h1>
+    </columns>
+  </row>
+    <row class="collapse menu">
+      <columns></columns>
+      <columns small="8" large="8">
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </columns>
+      <columns></columns> 
   </row>
   <row>
     <columns small="12" large="12">home</columns>
   </row>
   <row class="collapse">
     <columns small="6" large="6">about</columns>
-    <columns small="6" large="6">contact</columns>
+    <columns small="6" large="6">
+    <center>
+        <img 
+        src="assets/img/goku.jpg"
+        />
+    </center>
+    <!-- https://foundation.zurb.com/forum/posts/39117-image-path-explanation-needed -->
+    </columns>
   </row>
   <row>
     <columns small="6" large="12" class="small-offset-6">shop</columns>
