@@ -1,6 +1,29 @@
+html, body,
+.body{
+    background: #e4e5ea;
+    background-color: #e4e5ea;
+}
+
 .header {
-    background: red;
-    background-color: red;
+    background: #FF6A10;
+    background-color: #FF6A10;
+    .columns {
+        padding-bottom: 20px;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        padding-top: 20px;
+        .logo_white{
+            width: 128px;
+        }
+        .user_icon {
+            width: 32px;
+        }
+    }
+}
+
+.sub-header {
+    background: #D65700;
+    background-color: #D65700;
     .columns {
         padding-bottom: 20px;
         padding-right: 20px !important;
