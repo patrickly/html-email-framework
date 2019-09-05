@@ -25,12 +25,25 @@ html, body,
     background: #D65700;
     background-color: #D65700;
     .columns {
-        padding-bottom: 20px;
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-        padding-top: 20px;
-        h1{
+        padding-bottom: 5px;
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        padding-top: 5px;
+        a {
             color: white;
+            font-size: 14px;
+            font-weight: 700;
+            .icons {
+                width: 20px;
+                margin-right: 10px;
+            }
+        }
+        .menu-divider {
+            display: block; 
+            height: 20px; 
+            width: 1px; 
+            background:#ff690f; 
+            background-color:#ff690f;
         }
     }
 }
