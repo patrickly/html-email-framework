@@ -36,7 +36,12 @@ html, body,
             .icons {
                 width: 20px;
                 margin-right: 10px;
+                display: inline-block;
+                vertical-align: bottom;
             }
+        }
+        th {
+            text-align: center;
         }
         .menu-divider {
             display: block; 
