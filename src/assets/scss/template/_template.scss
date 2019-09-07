@@ -220,14 +220,14 @@ html, body,
         }
     }
 }
-.footer {
-    background: black;
-    background-color: black;
-    .footer-container {
-        background: black;
-        background-color: black;
+.footer-top {
+    background: #222d37;
+    background-color: #222d37;
+    color: white;
+    th {
+        padding-bottom: 30px;
+        padding-top: 30px;
+
     }
-    a {
-        color: red;
-    }
+
 }
