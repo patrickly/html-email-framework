@@ -224,10 +224,30 @@ html, body,
     background: #222d37;
     background-color: #222d37;
     color: white;
+    & > tbody > tr > th {
+        padding-bottom: 30px !important;
+        padding-top: 30px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
     th {
-        padding-bottom: 30px;
-        padding-top: 30px;
-
+        padding-bottom: 0;
+    }
+    .call-to-action {
+        background: red;
+        dipslay: block !important;
+        font-size: 10px;
+    }
+    .info {
+        background: blue;
+        dipslay: block !important;
+        font-size: 12px;
+    }
+    .info-section  > table > tbody> tr> th {
+        color: white;
+        padding-left: 10px;
+        background: green;
+        display:block;
     }
 
 }
