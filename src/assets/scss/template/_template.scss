@@ -235,12 +235,12 @@ html, body,
     }
     .call-to-action {
         background: red;
-        dipslay: block !important;
-        font-size: 10px;
+        display: block;
+        font-size: 14px;
     }
     .info {
         background: blue;
-        dipslay: block !important;
+        dipslay: block;
         font-size: 12px;
     }
     .info-section  > table > tbody> tr> th {
