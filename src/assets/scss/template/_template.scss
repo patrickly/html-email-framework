@@ -242,16 +242,19 @@ html, body,
         display: block;
         font-size: 14px;
         hyphens: none;
+        color: white;
+        padding-left: 10px;
     }
     .info {
         display: block;
         font-size: 12px;
         hyphens: none;
+        color: white;
+        padding-left: 10px;
     }
     .info-section  > table > tbody> tr> th {
         color: white;
-        padding-left: 10px;
-        display:block;
+        padding-left: 10px !important;
     }
     .store-logos {
         img {
@@ -259,6 +262,8 @@ html, body,
             width: 120px;
             display: block;
             margin: 0 auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
         .columns th{
 
