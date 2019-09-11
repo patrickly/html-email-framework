@@ -36,7 +36,7 @@ html, body,
             font-weight: 700;
             .icons {
                 width: 20px;
-                margin-right: 10px;
+                margin-right: 5px;
                 display: inline-block;
                 vertical-align: bottom;
             }
@@ -224,6 +224,11 @@ html, body,
     background: #222d37;
     background-color: #222d37;
     color: white;
+
+    & > tbody > tr {
+        vertical-align: middle;
+    }
+    
     & > tbody > tr > th {
         padding-bottom: 25px !important;
         padding-top: 30px !important;
@@ -278,6 +283,7 @@ html, body,
 .footer-social {
     background: #14171C;
     background-color: #14171C;
+
     & > tbody > tr > th {
         padding-top: 20px;
         padding-bottom: 20px;        
